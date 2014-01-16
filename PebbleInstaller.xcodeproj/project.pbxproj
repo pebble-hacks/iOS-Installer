@@ -19,6 +19,8 @@
 		E9EF2B6F18875CFC008A0D49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EF2B5718875CFC008A0D49 /* UIKit.framework */; };
 		E9EF2B7718875CFC008A0D49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9EF2B7518875CFC008A0D49 /* InfoPlist.strings */; };
 		E9EF2B7918875CFC008A0D49 /* PebbleInstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF2B7818875CFC008A0D49 /* PebbleInstallerTests.m */; };
+		E9EF2B8318875D62008A0D49 /* simplicity.pbw in Resources */ = {isa = PBXBuildFile; fileRef = E9EF2B8218875D62008A0D49 /* simplicity.pbw */; };
+		E9EF2B8618875EF1008A0D49 /* PIInstallerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF2B8518875EF1008A0D49 /* PIInstallerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E9EF2B7418875CFC008A0D49 /* PebbleInstallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleInstallerTests-Info.plist"; sourceTree = "<group>"; };
 		E9EF2B7618875CFC008A0D49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9EF2B7818875CFC008A0D49 /* PebbleInstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleInstallerTests.m; sourceTree = "<group>"; };
+		E9EF2B8218875D62008A0D49 /* simplicity.pbw */ = {isa = PBXFileReference; lastKnownFileType = file; path = simplicity.pbw; sourceTree = "<group>"; };
+		E9EF2B8418875EF1008A0D49 /* PIInstallerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIInstallerViewController.h; sourceTree = "<group>"; };
+		E9EF2B8518875EF1008A0D49 /* PIInstallerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIInstallerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +112,13 @@
 		E9EF2B5918875CFC008A0D49 /* PebbleInstaller */ = {
 			isa = PBXGroup;
 			children = (
+				E9EF2B8218875D62008A0D49 /* simplicity.pbw */,
 				E9EF2B6218875CFC008A0D49 /* PIAppDelegate.h */,
 				E9EF2B6318875CFC008A0D49 /* PIAppDelegate.m */,
 				E9EF2B6518875CFC008A0D49 /* Images.xcassets */,
 				E9EF2B5A18875CFC008A0D49 /* Supporting Files */,
+				E9EF2B8418875EF1008A0D49 /* PIInstallerViewController.h */,
+				E9EF2B8518875EF1008A0D49 /* PIInstallerViewController.m */,
 			);
 			path = PebbleInstaller;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EF2B8318875D62008A0D49 /* simplicity.pbw in Resources */,
 				E9EF2B5E18875CFC008A0D49 /* InfoPlist.strings in Resources */,
 				E9EF2B6618875CFC008A0D49 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				E9EF2B6018875CFC008A0D49 /* main.m in Sources */,
 				E9EF2B6418875CFC008A0D49 /* PIAppDelegate.m in Sources */,
+				E9EF2B8618875EF1008A0D49 /* PIInstallerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
